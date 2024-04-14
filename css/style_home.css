@@ -15,19 +15,38 @@
     font-size: calc(5px + 1vw);
 }
 
-.card-deck p {
-    font-size: calc(5px + 0.7vw) !important;
-}
-
 .art-paragraphs {
     text-indent: 70px;
     font-size: calc(5px + 0.7vw) !important;
 }
 .work-cited {
-    font-size: calc(5px + 0.7vw) !important;
+    font-size: calc(13px + 0.1vw) !important;
 
 }
 
+
+
+@media only screen and (max-width: 1900px) {
+    .card-text {
+        font-size: calc(5px + 0.7vw);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-deck #card-text1 {
+        font-size: calc(5px + 1.3vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(5px + 1.3vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(5px + 1.3vw) !important;
+    }
+    .art-paragraphs {
+        text-indent: 70px;
+        font-size: calc(13px + 0.1vw) !important;
+    }
+}
 
 @media only screen and (max-width: 1050px) {
     .jumbo {
@@ -53,16 +72,45 @@
     }
 }
 
+@media only screen and (max-width: 830px) {
+    .card-deck #card-text1 {
+        font-size: calc(5px + 1.4vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(5px + 1.4vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(5px + 1.4vw) !important;
+    }
+}
+
 @media only screen and (max-width: 760px) {
     .home-body h5 {
-        font-size: 113% !important;
+        font-size: calc(14px + 1vw) !important;
     }
     .jumbo {
         max-width: 700px;
     }
-
     .card-deck {
         max-width: 680px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .home-body .card-deck h5 {
+        font-size: calc(14px + 0.9vw) !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card-deck #card-text1 {
+        font-size: calc(14px + 0.5vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(14px + 0.5vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(14px + 0.5vw) !important;
     }
 }
 
@@ -91,7 +139,6 @@
     .home-body h5 {
         font-size: 88% !important;
     }
-
 }
 
 @media only screen and (max-width: 450px) {
@@ -105,7 +152,15 @@
     .home-body h5 {
         font-size: 75% !important;
     }
-
+    .card-deck #card-text1 {
+        font-size: calc(13px + 0.5vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(13px + 0.5vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(13px + 0.5vw) !important;
+    }
 }
 
 @media only screen and (max-width: 360px) {
