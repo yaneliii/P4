@@ -5,7 +5,7 @@
     position: fixed;
     width: 100%;
     background-color: white !important;
-    padding-top: 0;
+    padding-top: 5px;
     padding-bottom: 5px;
     z-index: 3;
 }
@@ -19,10 +19,9 @@
 
 
 .site-logo {
-    margin-top: 4px;
     padding-top: unset;
     padding-bottom: unset;
-    margin-left: 1px;
+    margin-left: 2px;
     width: 70px;
     height: 60px;
     background-image: url("../img/dino_down.jpg");
@@ -39,7 +38,7 @@
     font-family: Noi Grotesk, sans-serif;
     font-size: calc(15px + 0.390625vw);
     color: black;
-    padding: 8px 11px 0 5px;
+    padding: 0 13px 0 5px;
     text-decoration: none;
     float: none;
 }
@@ -88,7 +87,7 @@
 
 /* the styles for elements directly under nav */
 .under-nav {
-    padding-top: 35px;
+    padding-top: 40px;
     margin-top: 30px;
 }
 .top-body {
