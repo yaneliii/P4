@@ -1,5 +1,6 @@
 /* DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 */
 
+/* the styles for footer */
 .footer {
     position: fixed;
     left: 0;
@@ -43,7 +44,6 @@
     }
 }
 
-
 @media only screen and (max-width: 560px) {
     .footer {
         font-size: 70%;
@@ -68,5 +68,32 @@
     }
     .footer .row div {
         padding: 0 3px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .footer {
+        font-size: 55%;
+    }
+    .footer .row div {
+        padding: 0 1px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .footer {
+        font-size: 45%;
+    }
+    .footer .row div {
+        padding: 0 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .footer {
+        font-size: 35%;
+    }
+    .footer .row div {
+        padding: 0 0;
     }
 }

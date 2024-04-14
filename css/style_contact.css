@@ -1,5 +1,7 @@
 /* DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 */
 
+/* the styles for the contact page */
+
 .cont-body {
     margin-bottom: 15%;
 }
@@ -53,7 +55,23 @@
     padding: 5px;
 }
 
+@media only screen and (max-width: 7005px) {
+    .media-row img {
+        width: 1.4% !important;
+    }
+}
 
+@media only screen and (max-width: 3105px) {
+    .media-row img {
+        width: 2% !important;
+    }
+}
+
+@media only screen and (max-width: 2105px) {
+    .media-row img {
+        width: 3% !important;
+    }
+}
 
 @media only screen and (max-width: 1305px) {
     .form-box {
