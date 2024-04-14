@@ -1,0 +1,72 @@
+/* DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 85%;
+}
+.footer .row div {
+    width: 32%;
+    padding: 0 20px;
+}
+.footer .row div a {
+    text-decoration: none;
+}
+.footer .row:first-child {
+    padding-left: 4.3%;
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+    .footer .row:last-child {
+        margin-right: -4%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .footer {
+        font-size: 80%;
+    }
+    .footer .row div {
+        padding: 0 12px;
+    }
+    .footer .row:last-child {
+        margin-right: -6%;
+    }
+}
+
+
+@media only screen and (max-width: 560px) {
+    .footer {
+        font-size: 70%;
+    }
+    .footer .row div {
+        padding: 0 6px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .footer {
+        font-size: 65%;
+    }
+    .footer .row div {
+        padding: 0 4px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .footer {
+        font-size: 60%;
+    }
+    .footer .row div {
+        padding: 0 3px;
+    }
+}

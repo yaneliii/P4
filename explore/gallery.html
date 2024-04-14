@@ -1,0 +1,200 @@
+<!-- DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="../css/style_gallery.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row navigation">
+            <nav class="navbar navbar-expand-md justify-content-start bg-light navbar-light col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand d-flex align-items-center active" href="../index.html">
+                    <a class="site-logo" href="../index.html"></a>
+                    <a class="site-name link-hov" href="../index.html"> <span>Yaneli Cestona</span> </a>
+                </a>
+
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav site-links">
+                        <!-- Dropdowns -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Explore-navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item link-hov" href="../explore/gallery.html">Gallery</a>
+                                <a class="dropdown-item link-hov" href="../explore/inspirations.html">Inspirations</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Resource-navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item link-hov" href="../resources/mediums.html">Mediums</a>
+                                <a class="dropdown-item link-hov" href="../resources/recommendations.html">Recommendations</a>
+                            </div>
+                        </li>
+
+                        <!-- Link -->
+                        <li class="nav-item">
+                            <a class="nav-link link-hov" href="../contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid under-nav">
+            <div class="row">
+                <div class="scroll-header">
+                    <div class="progress-container">
+                        <div class="progress-bar" id="myBar"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <main>
+            <div class="gallery-title col-sm-12 text-center mt-5 mb-4">
+                <h1 style="font-size: 50px">Gallery</h1>
+            </div>
+
+            <div class="gallery-pic d-flex flex-column justify-content align-items-center">
+                <section id="carousel" class="gallery-carousel pt-3 bg-light">
+                    <div class="container">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel" data-pause="hover">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../img/gallery_art/totoro.JPG" class="w-100" alt="<Fan art of My Neighbor Totoro done in ink">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/hands.jpg" class="w-100 small-img" alt="Digital art of hands with strings attached to a person (digital art)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/dog.png" class="w-100 small-img" alt="Digital art of a dog (digital art)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/beetlejuice.jpg" class="w-75" alt="Fan art of Sandworm from Beetlejuice (digital art)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/jjk_digital.jpeg" class="w-75" alt="Fan art of wolves from Jujutsu Kaisen (digital)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/jjk.jpg" class="w-75" alt="Fan art of wolves from Jujutsu Kaisen (watercolor)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/dn_digital.jpg" class="d-block w-100" alt="Fan art of Ryuk from Death Note (digital art)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/dn_paint.jpg" class="w-100 small-img" alt="Fan art of Ryuk from Death Note (painting)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/wall_art.jpeg" class="d-block w-100" alt="Fan art of Jujutsu Kaisen on my wall">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/shading.jpg" class="w-100" alt="Shading practice art">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/heart.jpg" class="w-100 small-img" alt="Heart drawn and colored in color pencils">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/eye.jpg" class="w-75" alt="Eye drawn and colored in oil pastels">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/billie.jpg" class="w-75" alt="Billie Eilish drawn in pencil">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/skull.jpg" class="w-100 small-img" alt="Skull colored in markers">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/gallery_art/person.jpg" class="w-100 small-img" alt="Person (neck-down) drawn and colored in oil pastels">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <div>
+        <footer class="footer page-footer font-small">
+            <div class="container">
+                <div class="row">
+                    <div><a>&copy; Yaneli Cestona, 2024</a></div>
+                    <div><a class="link-hov" href="../tos.html">Terms Of Use</a></div>
+                    <div><a class="link-hov" href="../privacy.html">Privacy Statement</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
+    </script>
+
+
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
+
+</body>
+</html>

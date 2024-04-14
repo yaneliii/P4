@@ -1,0 +1,107 @@
+/* DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 */
+
+#cards {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.home-body {
+    padding-bottom: 30px;
+}
+
+.jumbo a {
+    font-size: calc(5px + 1vw);
+}
+
+.card-deck p {
+    font-size: calc(5px + 0.7vw) !important;
+}
+
+.art-paragraphs {
+    text-indent: 70px;
+    font-size: calc(5px + 0.7vw) !important;
+}
+.work-cited {
+    font-size: calc(5px + 0.7vw) !important;
+
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .jumbo {
+        max-width: 900px;
+    }
+    .jumbo h1 {
+        font-size: calc(5px + 2.6vw);
+    }
+    .jumbo p {
+        font-size: calc(5px + 2vw) !important;
+    }
+    .card-deck {
+        max-width: 860px;
+    }
+    .footer .row:last-child {
+        margin-right: -4%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .home-body h5 {
+        font-size: 118% !important;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .home-body h5 {
+        font-size: 113% !important;
+    }
+    .jumbo {
+        max-width: 700px;
+    }
+
+    .card-deck {
+        max-width: 680px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .home-body h5 {
+        font-size: 108% !important;
+    }
+
+}
+
+@media only screen and (max-width: 615px) {
+    .home-body h5 {
+        font-size: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    .home-body h5 {
+        font-size: 93% !important;
+    }
+
+}
+
+@media only screen and (max-width: 495px) {
+    .home-body h5 {
+        font-size: 88% !important;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .home-body h5 {
+        font-size: 83% !important;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .home-body h5 {
+        font-size: 75% !important;
+    }
+
+}

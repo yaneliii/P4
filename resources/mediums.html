@@ -1,0 +1,237 @@
+<!-- DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="../css/style_med.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row navigation">
+            <nav class="navbar navbar-expand-md justify-content-start bg-light navbar-light col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand d-flex align-items-center active" href="../index.html">
+                    <a class="site-logo" href="../index.html"></a>
+                    <a class="site-name link-hov" href="../index.html"> <span>Yaneli Cestona</span> </a>
+                </a>
+
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav site-links">
+                        <!-- Dropdowns -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Explore-navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item link-hov" href="../explore/gallery.html">Gallery</a>
+                                <a class="dropdown-item link-hov" href="../explore/inspirations.html">Inspirations</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Resource-navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item link-hov" href="../resources/mediums.html">Mediums</a>
+                                <a class="dropdown-item link-hov" href="../resources/recommendations.html">Recommendations</a>
+                            </div>
+                        </li>
+
+                        <!-- Link -->
+                        <li class="nav-item">
+                            <a class="nav-link link-hov" href="../contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="mediums-body">
+            <div class="container-fluid under-nav">
+                <div class="row">
+                    <div class="scroll-header">
+                        <div class="progress-container">
+                            <div class="progress-bar" id="myBar"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <main>
+                <div class="medium-title col-12  text-center mt-5 mb-3">
+                    <h1 id="medium-title" style="font-size: 52px">Mediums</h1>
+                </div>
+
+                <div class="container all-rows">
+                    <div class="row med-one-row justify-content-center">
+                        <div class="offset-1">
+                            <h3 class="title-row" style="font-size: 1.9vw">Acrylic Paint</h3>
+                        </div>
+                        <div class="col-3 offset-md-1 img-col mb-3" style="width: 21.9vw;">
+                            <img src="../img/gallery_art/dn_paint.jpg" class="w-100 small-img" alt="Fan art of Ryuk from Death Note (painting)">
+                        </div>
+                        <div class="col-7 txt-box">
+                            <p id="para" class="medium-para">
+                                Acrylic paint is a versatile and widely used material; it is known for its opaque vibrant colors and easy blending.
+                                However, it has a short drying time which gives the artist less time to work with the paint. Fortunately,
+                                you can just add a retarding medium to your paint that allows it to remain wet for longer. This gives artists more time
+                                to use the paint and even improves blending. You even work with its quick-drying instead of against it by using it
+                                to create layers or textures - as it dries with a durable, non-cracking finish. Additionally, acrylic paint can be mixed
+                                with other materials like water for a watercolor-like effect. Acrylics also adhere well to several types of surfaces,
+                                including canvas, paper, wood, etc., making them popular among artists of all levels. Overall, it is a great medium for
+                                beginners as they can attempt different painting techniques, and change the thickness of it, and generally cheaper.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row med-one-row justify-content-center">
+                        <div class="offset-1">
+                            <h3 class="title-row" style="font-size: 1.9vw">Watercolor Paint</h3>
+                        </div>
+                        <div class="col-3 offset-md-1 img-col mb-3" style="width: 22vw;">
+                            <img src="../img/gallery_art/jjk.jpg" class="w-100" alt="Fan art of wolves from Jujutsu Kaisen (watercolor)">
+                        </div>
+                        <div class="col-7 txt-col txt-box">
+                            <p class="medium-para">
+                                Watercolor lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis. Nulla facilisis hendrerit odio, ac ultricies
+                                est rutrum ullamcorper. Nullam imperdiet massa vitae nulla bibendum porttitor non in nisl. Nullam sodales, neque id
+                                maximus tristique, risus ligula sagittis enim, sed efficitur justo magna eget metus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row med-one-row justify-content-center">
+                        <div class="offset-1">
+                            <h3 class="title-row" style="font-size: 1.9vw">Oil Pastel</h3>
+                        </div>
+                        <div class="col-3 offset-md-1 img-col mb-3" style="width: 22vw;">
+                            <img src="../img/gallery_art/person.jpg" class="w-100 small-img" alt="Person (neck-down) drawn and colored in oil pastels">
+                        </div>
+                        <div class="col-7 txt-col txt-box">
+                            <p class="medium-para">
+                                Oil pastels lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row med-one-row justify-content-center">
+                        <div class="offset-1">
+                            <h3 class="title-row" style="font-size: 1.9vw">Ink</h3>
+                        </div>
+                        <div class="col-3 offset-md-1 img-col mb-3" style="width: 25vw;">
+                            <img src="../img/gallery_art/totoro.JPG" class="w-100 small-img" alt="Fan art of Ryuk from Death Note (painting)">
+                        </div>
+                        <div class="col-7 txt-box">
+                            <p class="medium-para">
+                                Ink lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis. Nulla facilisis hendrerit odio, ac ultricies
+                                est rutrum ullamcorper. Nullam imperdiet massa vitae nulla bibendum porttitor non in nisl. Nullam sodales, neque id
+                                maximus tristique, risus ligula sagittis enim, sed efficitur justo magna eget metus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row med-one-row justify-content-center">
+                        <div class="offset-1">
+                            <h3 class="title-row" style="font-size: 1.9vw">Marker</h3>
+                        </div>
+                        <div class="col-3 offset-md-1 img-col mb-3" style="width: 22vw;">
+                            <img src="../img/gallery_art/skull.jpg" class="w-100 small-img" alt="Skull colored in markers">
+                        </div>
+                        <div class="col-7 txt-col txt-box">
+                            <p class="medium-para">
+                                Markers lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis. Nulla facilisis hendrerit odio, ac ultricies
+                                est rutrum ullamcorper. Nullam imperdiet massa vitae nulla bibendum porttitor non in nisl. Nullam sodales, neque id
+                                maximus tristique, risus ligula sagittis enim, sed efficitur justo magna eget metus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row med-one-row justify-content-center">
+                        <div class="offset-1">
+                            <h3 class="title-row" style="font-size: 1.9vw">Digital Art</h3>
+                        </div>
+                        <div class="col-3 offset-md-1 img-col mb-3" style="width: 22vw;">
+                            <img src="../img/gallery_art/dog.png" class="w-100 small-img" alt="Digital art of a dog (digital art)">
+                        </div>
+                        <div class="col-7 txt-col txt-box">
+                            <p class="medium-para">
+                                Digital art lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis. Nulla facilisis hendrerit odio, ac ultricies
+                                est rutrum ullamcorper. Nullam imperdiet massa vitae nulla bibendum porttitor non in nisl. Nullam sodales, neque id
+                                maximus tristique, risus ligula sagittis enim, sed efficitur justo magna eget metus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div>
+        <footer class="footer page-footer font-small">
+            <div class="container">
+                <div class="row">
+                    <div><a>&copy; Yaneli Cestona, 2024</a></div>
+                    <div><a class="link-hov" href="../tos.html">Terms Of Use</a></div>
+                    <div><a class="link-hov" href="../privacy.html">Privacy Statement</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+
+</body>
+</html>

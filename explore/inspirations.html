@@ -1,0 +1,350 @@
+<!-- DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="../css/style_inspo.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row navigation">
+            <nav class="navbar navbar-expand-md justify-content-start bg-light navbar-light col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand d-flex align-items-center active" href="../index.html">
+                    <a class="site-logo" href="../index.html"></a>
+                    <a class="site-name link-hov" href="../index.html"> <span>Yaneli Cestona</span> </a>
+                </a>
+
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav site-links">
+                        <!-- Dropdowns -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Explore-navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item link-hov" href="../explore/gallery.html">Gallery</a>
+                                <a class="dropdown-item link-hov" href="../explore/inspirations.html">Inspirations</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Resource-navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item link-hov" href="../resources/mediums.html">Mediums</a>
+                                <a class="dropdown-item link-hov" href="../resources/recommendations.html">Recommendations</a>
+                            </div>
+                        </li>
+
+                        <!-- Link -->
+                        <li class="nav-item">
+                            <a class="nav-link link-hov" href="../contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid under-nav">
+            <div class="row">
+                <div class="scroll-header">
+                    <div class="progress-container">
+                        <div class="progress-bar" id="myBar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <div class="row top-body">
+                <p class="col-1">Col 1</p>
+                <p class="col-1">Col 2</p>
+                <p class="col-1">Col 3</p>
+                <p class="col-1">Col 4</p>
+                <p class="col-1">Col 5</p>
+                <p class="col-1">Col 6</p>
+                <p class="col-1">Col 7</p>
+                <p class="col-1">Col 8</p>
+                <p class="col-1">Col 9</p>
+                <p class="col-1">Col 10</p>
+                <p class="col-1">Col 11</p>
+                <p class="col-1">Col 12</p>
+            </div>
+            -->
+        </div>
+
+        <main>
+            <div class="all-inspo-content">
+                <div class="rec-title col-12 text-center mt-5 mb-5">
+                    <h1 id="rec-title" style="font-size: 50px">Inspirations</h1>
+                </div>
+
+                <div class="container">
+                    <div class="row d-flex flex-column flex-md-row justify-content-center">
+                        <div class="title-row offset-1">
+                            <!-- helps contain content under this row -->
+                        </div>
+                        <div class="container col-3" style="width: 24rem;">
+
+                        </div>
+                        <div class="container col-3" style="width: 24rem;">
+
+                        </div>
+                        <div class="container col-3" style="width: 24rem;">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container all-rows">
+                    <div class="row rec-one-row d-flex flex-column flex-md-row justify-content-center">
+                        <div class="title-row offset-1">
+                            <!-- <h3 class="title" style="font-size: 30px">Gallery</h3> -->
+                        </div>
+                        <div class="container col-3 card-col" style="width: 34rem;">
+                            <img class="card-img-top pt-1" src="../img/inspo_art/bluey3.png" alt="Bluey color roughs">
+                            <div class="card-body">
+                                <h5 class="card-title bluey-artist">Costa Daniel Kassab</h5>
+                                <p class="card-text bluey-para">
+                                    Fig. 1. <cite>Bluey</cite> background color roughs from
+                                    Kassab, Costa Daniel. “Bluey.” Costa Daniel Art, www.costadanielart.com/concept-art#/bluey.
+                                    <br>
+                                    <br>
+                                    Costa Daniel Kassab is the lead art director for Bluey; the following pictures are some
+                                    of his concept art and color roughs from the show. His masterful use of color-blocking captivated
+                                    me as it infused the show with life and warmth that made you feel calm. Color is a powerful tool;
+                                    I admire how Kasab not only applies it for practical readability but also to drive emotional depth.
+                                    His approach ensures that each color scheme and direction maintains the show's signature fun and brightness.
+                                    Additionally, the soft rounded lines used in the world of Bluey contribute to its enchanting charm,
+                                    offering a balance between realism and whimsy. This 'shape language' crafts a world of simplicity,
+                                    transporting viewers into a realm of joy and wonder.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 16rem;">
+                            <img class="card-img-top" src="../img/inspo_art/bluey1.png" alt="Bluey title art concept">
+                            <div class="card-body">
+                                <h5 class="card-title">Costa Daniel Kassab</h5>
+                                <p class="card-text bluey para">
+                                    Fig. 2. <cite>Bluey</cite> title card concept for the episode "Ice Cream" from
+                                    Kassab, Costa Daniel. “Bluey.” Costa Daniel Art, www.costadanielart.com/concept-art#/bluey.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 17rem;">
+                            <img class="card-img-top" src="../img/inspo_art/bluey2.png" alt="Bluey title art concept">
+                            <div class="card-body">
+                                <h5 class="card-title">Costa Daniel Kassab</h5>
+                                <p class="card-text bluey para">
+                                    Fig. 3. <cite>Bluey</cite> title card concept for the episode "Perfect" from
+                                    Kassab, Costa Daniel. “Bluey.” Costa Daniel Art, www.costadanielart.com/concept-art#/bluey..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-sm-12">
+                        <p class="body-para">
+
+                        </p>
+                    </div>
+
+
+                    <div class="row rec-one-row d-flex flex-column flex-md-row justify-content-center">
+                        <div class="title-row offset-1">
+                            <!-- <h3 class="title" style="font-size: 30px">Gallery</h3> -->
+                        </div>
+                        <div class="container col-3 card-col" style="width: 24rem;">
+                            <img class="card-img-top" src="../img/inspo_art/korra1.jpeg" alt="Legend of Korra background painting police airship">
+                            <div class="card-body">
+                                <h5 class="card-title">Emily Tetri</h5>
+                                <p class="card-text">
+                                    Fig. 4. <cite>Legend of Korra</cite> background painting of police airship from
+                                    Tetri, Emily. “Legend of Korra.” Emily Tetri, www.emilytetri.com/<br>legendofkorrabgs.
+                                    <br>
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                    Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                    elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                    tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 23rem;">
+                            <img class="card-img-top" src="../img/inspo_art/korra2.jpeg" alt="Legend of Korra background painting South Pole">
+                            <div class="card-body">
+                                <h5 class="card-title">Emily Tetri</h5>
+                                <p class="card-text">
+                                    Fig. 5. <cite>Legend of Korra</cite> background painting of the South Pole from
+                                    Tetri, Emily. “Legend of Korra.” Emily Tetri, www.emilytetri.com/<br>legendofkorrabgs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 23.8rem;">
+                            <img class="card-img-top" src="../img/inspo_art/korra3.jpeg" alt="Legend of Korra background painting Air Temple">
+                            <div class="card-body">
+                                <h5 class="card-title">Emily Tetri</h5>
+                                <p class="card-text">
+                                    Fig. 6. <cite>Legend of Korra</cite> background painting of Air Temple from
+                                    Tetri, Emily. “Legend of Korra.” Emily Tetri, www.emilytetri.com/<br>legendofkorrabgs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-sm-12">
+                        <p class="body-para">
+
+                        </p>
+                    </div>
+
+
+                    <div class="row rec-one-row d-flex flex-column flex-md-row justify-content-center">
+                        <div class="title-row offset-1">
+                            <!-- <h3 class="title" style="font-size: 30px">Gallery</h3> -->
+                        </div>
+                        <div class="container col-3 card-col" style="width: 28rem;">
+                            <img class="card-img-top pt-3 pb-3" src="../img/inspo_art/dana2.jpeg" alt="The Owl House promotional art: Luz">
+                            <div class="card-body">
+                                <h5 class="card-title">Dana Terrace</h5>
+                                <p class="card-text">
+                                    Fig.8. <cite>The Owl House</cite> promotional art from
+                                    Terrace, Danna. “Dana Terrace.” Twitter, twitter.com/DanaTerrace/media.
+                                    <br>
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                    Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                    elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                    tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 21rem;">
+                            <img class="card-img-top pt-1" src="../img/inspo_art/dana3.jpeg" alt="The Owl House concept art: Luz and King">
+                            <div class="card-body">
+                                <h5 class="card-title">Dana Terrace</h5>
+                                <p class="card-text">
+                                    Fig.9. <cite>The Owl House</cite> concept art from
+                                    Terrace, Danna. “Dana Terrace.” Twitter, twitter.com/DanaTerrace/media.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 20rem;">
+                            <img class="card-img-top" src="../img/inspo_art/dana1.png" alt="The Owl House concept art: Belos">
+                            <div class="card-body">
+                                <h5 class="card-title">Dana Terrace</h5>
+                                <p class="card-text">
+                                    Fig.7. <cite>The Owl House</cite> character design concept art from
+                                    Terrace, Danna. “Dana Terrace.” Twitter, twitter.com/DanaTerrace/media.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-sm-12">
+                        <p class="body-para">
+                        </p>
+                    </div>
+
+
+                    <div class="row rec-one-row d-flex flex-column flex-md-row justify-content-center">
+                        <div class="title-row offset-1">
+                            <!-- <h3 class="title" style="font-size: 30px">Gallery</h3> -->
+                        </div>
+                        <div class="container col-3 card-col" style="width: 30rem;">
+                            <img class="card-img-top pt-4 " src="../img/inspo_art/jjk5.png" alt="Jujutsu Kaisen manga panel: Sukuna vs Jogo">
+                            <div class="card-body">
+                                <h5 class="card-title">Gege Akutami</h5>
+                                <p class="card-text para">
+                                    Fig. 11. <cite>Jujutsu Kaisen</cite> manga panel art from
+                                    Akutami, Gege. “Jujutsu Kaisen.” Viz, Viz Media, www.viz.com/shonenjump/<br>chapters/jujutsu-kaisen.
+                                    <br>
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex et ante pulvinar vestibulum vitae ut tortor.
+                                    Ut eros odio, aliquet ut iaculis quis, sollicitudin non felis. Vivamus interdum, leo sit amet vulputate scelerisque,
+                                    elit odio pulvinar arcu, eget rutrum orci urna suscipit ex. Nulla fringilla sapien maximus, tristique erat id,
+                                    tristique odio. Curabitur fringilla justo eget lectus accumsan venenatis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 18rem;">
+                            <img class="card-img-top" src="../img/inspo_art/jjk1.jpeg" alt="Jujutsu Kaisen manga panel: Toji">
+                            <div class="card-body">
+                                <h5 class="card-title">Gege Akutami</h5>
+                                <p class="card-text para">
+                                    Fig. 10. <cite>Jujutsu Kaisen</cite> manga panel art from
+                                    Akutami, Gege. “Jujutsu Kaisen.” Viz, Viz Media, www.viz.com/shonenjump/<br>chapters/jujutsu-kaisen.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container col-3 card-col" style="width: 16rem;">
+                            <img class="card-img-top pt-4 pb-2" src="../img/inspo_art/jjk4.jpeg" alt="Jujutsu Kaisen manga panel: Choso">
+                            <div class="card-body">
+                                <h5 class="card-title">Gege Akutami</h5>
+                                <p class="card-text para">
+                                    Fig. 12. <cite>Jujutsu Kaisen</cite> manga panel art from
+                                    Akutami, Gege. “Jujutsu Kaisen.” Viz, Viz Media, www.viz.com/shonenjump/<br>chapters/jujutsu-kaisen.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">
+                            <p class="body-para">
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div>
+        <footer class="footer page-footer font-small">
+            <div class="container">
+                <div class="row">
+                    <div><a>&copy; Yaneli Cestona, 2024</a></div>
+                    <div><a class="link-hov" href="../tos.html">Terms Of Use</a></div>
+                    <div><a class="link-hov" href="../privacy.html">Privacy Statement</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+
+</body>
+</html>

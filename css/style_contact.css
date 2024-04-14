@@ -1,0 +1,267 @@
+/* DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 */
+
+.cont-body {
+    margin-bottom: 15%;
+}
+
+.contact-title {
+    width: fit-content;
+    font-size: 50px;
+}
+
+
+.boxes {
+    margin-bottom: 1.5%;
+}
+.boxes label {
+    font-size: 140%;
+}
+.boxes input {
+    font-size: 140%;
+    border-radius: 10px;
+}
+.form-box {
+    display: inline-block;
+    margin-left: 2%;
+    width: 30%;
+}
+.form-email {
+    width: 100px;
+}
+.form-btn {
+    display: inline-block;
+    font-size: 120%;
+}
+.form-submit {
+    margin-left: 23% !important;
+}
+.form-btn .btn-primary {
+    font-size: 98%;
+}
+
+
+.media-row {
+    padding-top: 4% !important;
+}
+.media-row h3 {
+    width: fit-content;
+    padding-right: 2% !important;
+}
+.media-row .media {
+    float: left;
+    width: fit-content;
+    padding: 5px;
+}
+
+
+
+@media only screen and (max-width: 1305px) {
+    .form-box {
+        width: 35%;
+    }
+    .form-submit {
+        margin-left: 27% !important;
+    }
+}
+@media only screen and (max-width: 1230px) {
+    .contact-title {
+        font-size: 300%;
+    }
+    .media-title {
+        font-size: 160% !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .contact-title {
+        font-size: 280%;
+    }
+    .whole-form {
+        font-size: 97%;
+    }
+    .form-box {
+        width: 38%;
+    }
+    .boxes input {
+        font-size: 120%;
+    }
+    .form-submit {
+        margin-left: 29% !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .form-box {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .contact-title {
+        font-size: 240%;
+    }
+    .whole-form {
+        font-size: 93%;
+        padding-top: 3%;
+    }
+    .media-title {
+        font-size: 150% !important;
+    }
+    .form-box {
+        width: 50%;
+    }
+    .form-submit {
+        margin-left: 35% !important;
+    }
+    .media-row img {
+        width: 5% !important;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .contact-title {
+        font-size: 225%;
+    }
+    .media-title {
+        font-size: 128% !important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .whole-form {
+        font-size: 90%;
+    }
+    .media-title {
+        font-size: 110% !important;
+    }
+    .boxes input {
+        font-size: 110%;
+    }
+    .form-submit {
+        margin-left: 30% !important;
+    }
+    .media-row img {
+        width: 5% !important;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .contact-title {
+        font-size: 190%;
+    }
+    .whole-form {
+        font-size: 80%;
+    }
+    .media-title {
+        font-size: 110% !important;
+    }
+    .form-email {
+        width: 18%;
+        margin-bottom: 4%;
+    }
+    .boxes input {
+        font-size: 110%;
+    }
+    .form-check {
+        font-size: 100%;
+    }
+    .form-box {
+        width: 50%;
+    }
+    .form-submit {
+        margin-left: 32% !important;
+    }
+    .media-row img {
+        width: 6% !important;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .contact-title {
+        font-size: 154%;
+    }
+    .whole-form {
+        font-size: 70%;
+    }
+    .media-title {
+        font-size: 96% !important;
+    }
+    .form-email {
+        width: 22%;
+        margin-bottom: 4%;
+    }
+    .form-submit {
+        margin-left: 35% !important;
+    }
+    .form-btn .btn-primary {
+        padding: 15% 25%;
+        font-size: 80%;
+    }
+    .media-row img {
+        width: 7% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-title {
+        font-size: 135%;
+    }
+    .whole-form {
+        font-size: 52%;
+    }
+    .media-title {
+        font-size: 96% !important;
+    }
+    .form-email {
+        width: 22%;
+        margin-bottom: 4%;
+    }
+    .form-check {
+        font-size: 110%;
+    }
+    .form-btn .btn-primary {
+        padding: 15% 20%;
+        font-size: 90%;
+    }
+    .media-row img {
+        width: 8.5% !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .media-title {
+        font-size: 85% !important;
+    }
+    .media-row img {
+        width: 8.5% !important;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .contact-title {
+        font-size: 120%;
+    }
+    .whole-form {
+        font-size: 45%;
+    }
+    .media-title {
+        font-size: 75% !important;
+    }
+    .boxes input[type=text] {
+        height: 10%;
+    }
+    .boxes input[type=email] {
+        height: 9%;
+    }
+    .form-email {
+        width: 24%;
+        margin-bottom: 4%;
+    }
+    .form-check {
+        font-size: 120%;
+    }
+    .form-submit {
+        margin-left: 22% !important;
+    }
+    .form-btn .btn-primary {
+        padding: 15% 20%;
+        font-size: 90%;
+    }
+    .media-row img {
+        width: 10% !important;
+    }
+}
