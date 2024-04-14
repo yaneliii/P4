@@ -5,7 +5,7 @@
     position: fixed;
     width: 100%;
     background-color: white !important;
-    padding-top: 5px;
+    padding-top: 0;
     padding-bottom: 5px;
     z-index: 3;
 }
@@ -19,9 +19,10 @@
 
 
 .site-logo {
+    margin-top: 4px;
     padding-top: unset;
     padding-bottom: unset;
-    margin-left: 6px;
+    margin-left: 1px;
     width: 70px;
     height: 60px;
     background-image: url("../img/dino_down.jpg");
@@ -38,7 +39,7 @@
     font-family: Noi Grotesk, sans-serif;
     font-size: calc(15px + 0.390625vw);
     color: black;
-    padding: 0 13px 0 5px;
+    padding: 8px 11px 0 5px;
     text-decoration: none;
     float: none;
 }
@@ -87,7 +88,7 @@
 
 /* the styles for elements directly under nav */
 .under-nav {
-    padding-top: 40px;
+    padding-top: 35px;
     margin-top: 30px;
 }
 .top-body {
@@ -158,5 +159,17 @@
 @media only screen and (max-width: 300px) {
     .site-name {
         font-size: calc(5px + 2vw);
+    }
+    .navbar-toggler {
+        width: 11vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.3vw;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.5em;
+        margin: 0;
     }
 }
