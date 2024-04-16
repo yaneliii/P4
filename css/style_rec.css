@@ -72,7 +72,7 @@
         margin-left: -1px;
     }
     .all-rec-content {
-        padding-bottom: 1%;
+        padding-bottom: 20%;
     }
     .all-rows {
         column-count: 2;
@@ -112,7 +112,7 @@
         font-size: 32px !important;
     }
     .all-rec-content {
-        padding-bottom: 15%;
+        padding-bottom: 25%;
     }
     .all-rows .rec-one-row .title {
         font-size: 23px !important;
@@ -126,52 +126,15 @@
     .all-rows p {
         font-size: 82% !important;
     }
-    .water-pad {
-        width: 16rem !important;
-    }
-    .bristol {
-        width: 16rem !important;
-    }
 }
 
-@media only screen and (max-width: 521px) {
-    .water-pad {
-        width: 15rem !important;
-    }
-    .bristol {
-        width: 15rem !important;
-    }
-}
-
-@media only screen and (max-width: 520px) {
-    .water-pad {
-        width: 16rem !important;
-    }
-    .bristol {
-        width: 16rem !important;
-    }
-}
 
 @media only screen and (max-width: 505px) {
     .all-rec-content {
         padding-bottom: 25%;
     }
-    .toned-pad img {
-        width: 14.5rem !important;
-    }
 }
 
-@media only screen and (max-width: 498px) {
-    .toned-pad img {
-        width:  100% !important;
-    }
-    .water-pad {
-        width: 15rem !important;
-    }
-    .bristol {
-        width: 15rem !important;
-    }
-}
 
 @media only screen and (max-width: 480px) {
     .toned-pad img {
