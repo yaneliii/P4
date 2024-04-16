@@ -129,6 +129,11 @@
 }
 */
 
+@media only screen and (max-width: 470px) {
+    .bluey1 p {
+        font-size: 78% !important;
+    }
+}
 
 @media only screen and (max-width: 450px) {
     #rec-title {
