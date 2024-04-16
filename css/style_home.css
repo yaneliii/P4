@@ -2,19 +2,22 @@
 
 /* the styles for the home page */
 
+.home-body {
+    padding-bottom: 10%;
+}
+
+/* the styles for the cards */
 #cards {
     text-align: center;
     padding: 30px 0;
 }
 
-.home-body {
-    padding-bottom: 30px;
-}
-
+/* the styles for the jumbotron */
 .jumbo a {
     font-size: calc(5px + 1vw);
 }
 
+/* the styles for the paragraphs */
 .art-paragraphs {
     text-indent: 70px;
     font-size: calc(5px + 0.7vw) !important;
@@ -84,12 +87,21 @@
     }
 }
 
+@media only screen and (max-width: 770px) {
+    .home-body {
+        padding-bottom: 15%;
+    }
+}
+
 @media only screen and (max-width: 760px) {
     .home-body h5 {
         font-size: calc(14px + 1vw) !important;
     }
     .jumbo {
         max-width: 700px;
+    }
+    .jumbo a {
+        font-size: calc(10px + 0.8vw);
     }
     .card-deck {
         max-width: 680px;
@@ -125,7 +137,12 @@
     .home-body h5 {
         font-size: 100% !important;
     }
+}
 
+@media only screen and (max-width: 550px) {
+    .jumbo h1 {
+        font-size: calc(15px + 1vw);
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -145,7 +162,16 @@
     .home-body h5 {
         font-size: 83% !important;
     }
+    .jumbo p {
+        font-size: calc(12px + 0.8vw) !important;
+    }
 
+}
+
+@media only screen and (max-width: 430px) {
+    .home-body {
+        padding-bottom: 25%;
+    }
 }
 
 @media only screen and (max-width: 420px) {
@@ -164,8 +190,25 @@
 }
 
 @media only screen and (max-width: 360px) {
+    .jumbo a {
+        font-size: calc(12px + 0.3vw);
+    }
     #cards {
         padding: 15px 0 !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 332px) {
+    .jumbo a {
+        font-size: calc(10px + 0.1vw);
+    }
+}
+
+@media only screen and (max-width: 305px) {
+    .jumbo a {
+        font-size: calc(8px + 0.3vw);
     }
 }
 
@@ -174,17 +217,28 @@
         gap: 15px !important;
     }
     .jumbo .btn-primary {
-        font-size: 2.4vw;
+        /*font-size: 2.4vw;*/
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
     .jumbo .btn-outline-secondary {
-        font-size: 2.4vw;
+        /*font-size: 2.4vw;*/
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
 }
 
+@media only screen and (max-width: 281px) {
+    .jumbo a {
+        font-size: calc(10px + 0.5vw);
+    }
+}
+
+@media only screen and (max-width: 278px) {
+    .jumbo a {
+        font-size: calc(8px + 0.5vw);
+    }
+}
 
 @media only screen and (max-width: 225px) {
     .jumbo-btns div {

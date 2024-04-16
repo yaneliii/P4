@@ -65,81 +65,63 @@
             </nav>
         </div>
 
-        <div class="container-fluid under-nav">
-            <div class="row">
-                <div class="scroll-header">
-                    <div class="progress-container">
-                        <div class="progress-bar" id="myBar"></div>
+        <div class="row under-nav">
+            <div class="scroll-header">
+                <div class="progress-container">
+                    <div class="progress-bar" id="myBar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cont-body pt-4">
+            <main>
+                <div class="col-lg-3 text-center pt-1 offset-1">
+                    <h1 class="contact-title">Contact Me</h1>
+                </div>
+                <div class="container-fluid">
+
+                    <div class="row top-body whole-form offset-1">
+                        <form action="">
+                            <div class="form-group boxes">
+                                <label for="firstname">First Name:</label>
+                                <input type="text" class="form-control form-box" id="firstname"
+                                       placeholder="First name" name="firstname">
+                            </div>
+                            <div class="form-group boxes">
+                                <label for="lastname">Last Name:</label>
+                                <input type="text" class="form-control form-box" id="lastname"
+                                       placeholder="Last name" name="lastname">
+                            </div>
+                            <div class="form-group boxes">
+                                <label class="form-email" for="email">Email:</label>
+                                <input type="email" class="form-control form-box" id="email"
+                                       placeholder="Enter email" name="email">
+                            </div>
+                            <div class="form-group form-check form-btn">
+                                <label class="form-check-label">
+                                    <input class="form-check-input"
+                                           type="checkbox" name="subscribe"> Subscribe
+                                </label>
+                            </div>
+                            <div class="form-group form-check form-btn form-submit">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-lg-3 text-center mt-5 offset-1">
-                <h1 class="contact-title">Contact Me</h1>
-            </div>
+
+                    <div class="media-row">
+                            <h3 class="media media-title offset-1" style="font-size: 180%">Social Media</h3>
+                            <a href="https://www.facebook.com/" target="_blank"><img class="media" src="img/facebook.png" alt="facebook icon" style="width:4%"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img class="media" src="img/instagram.png" alt="instagram icon" style="width:4%"></a>
+                            <a href="https://www.youtube.com/" target="_blank"><img class="media" src="img/youtube.png" alt="youtube icon" style="width:4%"></a>
+                            <a href="https://www.twitter.com" target="_blank"><img class="media" src="img/twitter.png" alt="twitter/x icon" style="width:4%"></a>
+                    </div>
+
+                </div>
+            </main>
         </div>
 
-        <div class="cont-body mt-4">
-            <div class="container-fluid">
-                <div class="row top-body whole-form offset-1">
-                    <form action="">
-                        <div class="form-group boxes">
-                            <label for="firstname">First Name:</label>
-                            <input type="text" class="form-control form-box" id="firstname"
-                                   placeholder="First name" name="firstname">
-                        </div>
-                        <div class="form-group boxes">
-                            <label for="lastname">Last Name:</label>
-                            <input type="text" class="form-control form-box" id="lastname"
-                                   placeholder="Last name" name="lastname">
-                        </div>
-                        <div class="form-group boxes">
-                            <label class="form-email" for="email">Email:</label>
-                            <input type="email" class="form-control form-box" id="email"
-                                   placeholder="Enter email" name="email">
-                        </div>
-                        <div class="form-group form-check form-btn">
-                            <label class="form-check-label">
-                                <input class="form-check-input"
-                                       type="checkbox" name="subscribe"> Subscribe
-                            </label>
-                        </div>
-                        <div class="form-group form-check form-btn form-submit">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </form>
-                    </row>
-                </div>
-
-
-
-                <!--
-                <div class="row media-row d-flex flex-column flex-md-row">
-                    <ul class="media-sec">
-                        <li><h3 class="media media-title">Social Media</h3></li>
-                        <li><a class="media media-img" href="index.html"><img src="img/temp.png" alt="..."></a></li>
-                        <li><a class="media media-img" href="index.html"><img src="img/temp.png" alt="..."></a></li>
-                        <li><a class="media media-img" href="index.html"><img src="img/temp.png" alt="..."></a></li>
-                        <li><a class="media media-img" href="index.html"><img src="img/temp.png" alt="..."></a></li>
-                    </ul>
-                </div>
-                -->
-
-
-                <div class="media-row">
-
-                        <h3 class="media media-title offset-1" style="font-size: 180%">Social Media</h3>
-                        <a href="https://www.facebook.com/" target="_blank"><img class="media" src="img/facebook.png" alt="facebook icon" style="width:4%"></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img class="media" src="img/instagram.png" alt="instagram icon" style="width:4%"></a>
-                        <a href="https://www.youtube.com/" target="_blank"><img class="media" src="img/youtube.png" alt="youtube icon" style="width:4%"></a>
-                        <a href="https://www.twitter.com" target="_blank"><img class="media" src="img/twitter.png" alt="twitter/x icon" style="width:4%"></a>
-                </div>
-
-
-
-
-            </div>
-        </div>
 
         <div>
             <footer class="footer page-footer font-small">
@@ -160,6 +142,20 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">
 </script>
+
+
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
 
 </body>
 </html>

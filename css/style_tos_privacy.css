@@ -1,0 +1,48 @@
+.all-content {
+    margin-bottom: 10%;
+}
+.stmt-title h1 {
+    font-size: calc(17px + 3vw);
+}
+.all-paragraphs h4 {
+    font-size: calc(15px + 0.78vw);
+}
+.all-paragraphs h5 {
+    font-size: calc(14px + 0.8vw);
+}
+.all-paragraphs p {
+    font-size: calc(11px + 0.42vw);
+}
+
+@media only screen and (max-width: 900px) {
+    .all-content {
+        padding-bottom: 11%;
+    }
+    .all-paragraphs {
+        font-size: calc(5px + 1vw);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .all-content {
+        padding-bottom: 15%;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .all-content {
+        padding-bottom: 20%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .all-content {
+        padding-bottom: 23%;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .all-content {
+        padding-bottom: 28%;
+    }
+}
