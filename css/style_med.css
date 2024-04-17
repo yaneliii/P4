@@ -39,6 +39,31 @@
 }
 
 
+@media only screen and (max-width: 3000px) {
+    .all-rows .img-col {
+        width: 15vw !important;
+    }
+}
+@media only screen and (max-width: 1820px) {
+    .acrylic-img {
+        width: 22vw !important;
+    }
+    .water-pad {
+        width: 22vw !important;
+    }
+    .oil-img {
+        width: 22vw !important;
+    }
+    .imk-img {
+        width: 23vw !important;
+    }
+    .marker-img {
+        width: 22vw !important;
+    }
+    .digital-img {
+        width: 22vw !important;
+    }
+}
 @media only screen and (max-width: 1825px) {
     .totoro-img {
         width: 22vw !important;
@@ -132,7 +157,11 @@
     }
 }
 
-
+@media only screen and (max-width: 900px) {
+    .all-rows .img-col {
+        width: 24vw !important;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     #medium-title {

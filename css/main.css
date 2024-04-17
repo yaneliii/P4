@@ -17,11 +17,11 @@
 .navbar-collapse {
     background-color: white;
 }
-
 main {
     padding-top: 6rem;
 }
 
+/* styles for the logo and stie name*/
 .site-logo {
     padding-top: unset;
     padding-bottom: unset;
@@ -36,8 +36,6 @@ main {
 .navbar:hover .site-logo {
     background-image: url("../img/dino_up.jpg");
 }
-
-
 .site-name {
     font-family: Noi Grotesk, sans-serif;
     font-size: calc(15px + 0.390625vw);
@@ -47,12 +45,12 @@ main {
     float: none;
 }
 
-
+/* style for content under nav*/
 .num-col {
     padding-top: 30px;
 }
 
-
+/* styles for hovering over links*/
 .link-hov:hover {
     color: #FF5841 !important;
 }
@@ -65,7 +63,7 @@ main {
     color: #FF5841;
 }
 
-
+/* the styles for the navigation links*/
 .site-links {
     font-family: Noi Grotesk, sans-serif;
     font-size: 18px;
@@ -79,19 +77,12 @@ main {
     font-weight: bold;
     color: black !important;
 }
-
 .site-links li:last-child {
     padding-right: 16px;
 }
 
 
 /* the styles for elements directly under nav */
-.under-nav {
-    /*
-    padding-top: 40px;
-    margin-top: 30px;
-    */
-}
 .top-body {
     padding-top: 30px;
 }
@@ -121,56 +112,71 @@ main {
 }
 
 
+/* the styles for footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 85%;
+}
+.footer .row div {
+    width: 32%;
+    padding: 0 20px;
+}
+.footer .row div a {
+    text-decoration: none;
+}
+.footer .row:first-child {
+    padding-left: 4.3%;
+}
 
 
+/* media queries for nav*/
 @media only screen and (max-width: 1050px) {
     .site-links {
         font-size: 120%;
     }
 }
-
 @media only screen and (max-width: 880px) {
     .navbar {
         padding-bottom: 6px;
     }
-
     .site-links {
         font-size: 110%;
     }
 }
-
 @media only screen and (max-width: 850px) {
     .site-logo {
         background-size: 3rem;
     }
 }
-
 @media only screen and (max-width: 770px) {
     .navbar {
         height: 70px;
         padding-bottom: 5px;
     }
 }
-
 @media only screen and (max-width: 770px) {
     .progress-container {
         top: 68px;
     }
 }
-
 @media only screen and (max-width: 750px) {
     .navbar {
         padding-bottom: 15px;
     }
 }
-
-
 @media only screen and (max-width: 330px) {
     .site-name {
         font-size: calc(5px + 2.6vw);
     }
 }
-
 @media only screen and (max-width: 300px) {
     .site-name {
         font-size: calc(5px + 2vw);
@@ -182,9 +188,85 @@ main {
         align-items: center;
         padding: 1.3vw;
     }
-
     .navbar-toggler-icon {
         width: 1.5em;
         margin: 0;
+    }
+}
+
+
+
+
+/* media queries for footer*/
+@media only screen and (max-width: 1050px) {
+    .footer .row:last-child {
+        margin-right: -4%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .footer {
+        font-size: 80%;
+    }
+    .footer .row div {
+        padding: 0 12px;
+    }
+    .footer .row:last-child {
+        margin-right: -6%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .footer {
+        font-size: 70%;
+    }
+    .footer .row div {
+        padding: 0 6px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .footer {
+        font-size: 65%;
+    }
+    .footer .row div {
+        padding: 0 4px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .footer {
+        font-size: 60%;
+    }
+    .footer .row div {
+        padding: 0 3px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .footer {
+        font-size: 55%;
+    }
+    .footer .row div {
+        padding: 0 1px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .footer {
+        font-size: 45%;
+    }
+    .footer .row div {
+        padding: 0 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .footer {
+        font-size: 35%;
+    }
+
+    .footer .row div {
+        padding: 0 0;
     }
 }
